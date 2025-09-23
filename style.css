@@ -33,7 +33,7 @@
 
 .header__logo img{
   
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
@@ -60,4 +60,30 @@
 
 .search-btn:hover{
    transform: scale(1.03);
+}
+
+.login-btn{
+    color: var(--color-text-white);
+       border: none;
+    background-color: var(--color-items);
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: transform 0.1s ease;
+}
+
+.login-btn:hover{
+   transform: scale(1.03);
+}
+
+.cart-btn{
+    border: none;
+    background-color: var(--color-primary);
+    border-radius: 4px 4px 4px 4px;
+     padding: 0.5rem 1rem;
+
+}
+.cart-btn:hover{
+    cursor: pointer;
+    transform: scale(1.03);
 }
